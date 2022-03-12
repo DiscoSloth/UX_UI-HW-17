@@ -1,6 +1,6 @@
 @font-face{
     font-family:'poppins semi-bold';
-    src: url(VSCassets/Poppins-SemiBold.ttf)
+    src: url(VSCassets/Poppins-SemiBold.ttf);
 }
 
 @font-face {
@@ -12,8 +12,10 @@
     font-family: 'raleway reg';
     src: url(VSCassets/Raleway/static/Raleway-Regular.ttf);
 }
-
-
+@font-face{
+    font-family: 'poppins med';
+    src:url(Vscassets/Poppins-Medium.ttf);
+}
     
 
 .containerNAV {
@@ -66,7 +68,11 @@ nav ul>li>a:hover {
     font-size: 18px;
 }
 
-
+.centered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 body{
     background: #ece5da;
@@ -82,6 +88,63 @@ header::after {
     display: table;
     clear: both;
 }
+
+
+.introPara{
+    padding:100px;
+    display:flex;
+    margin:auto;
+}
+
+
+.flexContainer{
+    display: flex;
+    flex-direction: row;
+    
+}
+.skillsboxes{
+    width: 33%;
+    padding: 45px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+h1{
+    font-family:'poppins med';
+    font-size: 22px;
+    display: inline-block;
+    margin-left:auto;
+    margin-right:auto;
+
+}
+h3{
+    font-family:'poppins med';
+    font-size: 18px
+}
+p{
+    font-family: 'raleway reg';
+    font-size: 18px;
+}
+
+.workGrid{
+    display:grid;
+    grid-area:myArea;
+}
+.grid-container{
+    display:grid;
+    grid-template-columns: grid-template-columns: 1fr 2fr;
+}
+
+.workPhoto{
+    width:auto;
+    height:200px;
+}
+
+
+
+
 
 .INfooter {
     margin:0;
@@ -121,6 +184,7 @@ header::after {
     display: flex;
 }
 
+
 .quick-items{
         list-style: none;
 }
@@ -128,7 +192,8 @@ header::after {
 .quick-items a{
     text-decoration:none;
     padding: 0px 15px;
-    font-size: 18px;
+    font-family: 'raleway reg';
+    font-size: 20px;
     color:black;
 }
 
