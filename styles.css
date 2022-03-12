@@ -132,9 +132,20 @@ p{
     display:grid;
     grid-area:myArea;
 }
-.grid-container{
+/*.grid-container{
     display:grid;
+}*/
+    
+
+#categoryGrid{
+    margin: 0px 5%;
+    display:grid;
+    grid-template-rows:300px 300px 300px;
     grid-template-columns: grid-template-columns: 1fr 2fr;
+    grid-template-areas:
+    "rabbits dogs cats"
+    "bunny puppy kitty"
+    ;
 }
 
 .workPhoto{
@@ -201,6 +212,25 @@ p{
 .icon-linkedin {
     
     src:url(linkedinlink.png);
+}
+
+@media only screen and (max-width:600px){
+    .flexContainer{
+        display: flex;
+        flex-direction: column;
+    
+    }
+
+    #categoryGrid{
+        grid-template-rows: 300px 300px 300px 300px 300px;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        "Rabbits"
+        "dogs"
+        "cats"
+        ;
+    }
+
 }
 /*footer {
     display:flex;
