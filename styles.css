@@ -1,8 +1,177 @@
+@font-face{
+    font-family:'poppins semi-bold';
+    src: url(VSCassets/Poppins-SemiBold.ttf)
+}
+
+@font-face {
+    font-family: 'poppins reg';
+    src: url(VSCassets/Poppins-Black.ttf);
+}
+
+@font-face {
+    font-family: 'raleway reg';
+    src: url(VSCassets/Raleway/static/Raleway-Regular.ttf);
+}
+
+
+    
+
 .containerNAV {
     width: 80%;
     margin: 0 auto;
+    height: auto;
+    font-family: 'raleway reg'; 
 }
 
-.header {
+.logo {
+    float: left;
+    position: absolute;
+    left: 3%;
+    top: 0;
+    width: 23%;
+
+}
+
+.NAVbuttons{
+    float: right;
+}
+
+NAV {
+    float: left;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav ul>li {
+    display: inline-block;
+    text-align: left;
+    margin-left: 40px;
+    padding-top: 50px;
+
+    position:relative;
+}
+
+nav ul>li>a {
+    color:black;
+    text-decoration:none;
+    text-transform: lowercase;
+    font-size: 20px;
+}
+nav ul>li>a:hover {
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+
+
+body{
+    background: #ece5da;
+    margin: 0%;
+}
+
+header {
     background: #ece5da;
 }
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.INfooter {
+    margin:0;
+    padding:0;
+    background-color: #ece5da;  
+}
+
+.socials{
+    display:flex;
+}
+.socials ul{
+    padding:10px;
+    display:flex;
+    width:300px;
+    height: 30px;
+    margin:auto;
+}
+
+.social-items{
+    list-style: none;
+}
+
+.social-items a{
+    padding: 10px 20px;
+    font-size: 35px;
+    
+}
+
+.footlinks{
+    display:flex;
+    width: 560px;
+    height:70px;
+    margin:auto;
+}
+
+.footlinks ul{
+    display: flex;
+}
+
+.quick-items{
+        list-style: none;
+}
+
+.quick-items a{
+    text-decoration:none;
+    padding: 0px 15px;
+    font-size: 18px;
+    color:black;
+}
+
+
+.icon-linkedin {
+    
+    src:url(linkedinlink.png);
+}
+/*footer {
+    display:flex;
+    background-color: #ece5da;
+    position:fixed;
+    height: 100px;
+    width: 100%;
+    /*padding: 0; */
+   /* list-style-position: center; */
+   /* border-top: 2px black;
+    border-top-width: 80%;*/
+    /*justify-content: center;
+    align-items: center;
+   
+} 8?
+
+/*footer ul>li {
+    display:flex;
+    position: fixed;
+    justify-content: center;
+    margin: 70px;
+    padding-bottom: 50px;
+    align-items:center;
+    position:relative; 
+    
+}*/
+/*
+footer ul>li>a {
+    font-family: 'raleway reg';
+    color:black;
+    text-decoration:none;
+    text-transform: lowercase;
+    font-size: 20px;
+}
+
+/*footer ul>li>a:hover{
+    text-transform: uppercase;
+    font-size: 18px;
+}*/
