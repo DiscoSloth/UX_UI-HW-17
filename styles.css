@@ -16,6 +16,8 @@
     font-family: 'poppins med';
     src:url(Vscassets/Poppins-Medium.ttf);
 }
+
+
     
 
 .containerNAV {
@@ -89,6 +91,16 @@ header::after {
     clear: both;
 }
 
+hr{
+    position: absolute;
+    width: 1353.5px;
+    height: 0px;
+    left: 720px;
+    top: 257px;
+
+    border: 1px solid #000000;
+    transform: rotate(90deg);
+}
 
 .introPara{
     padding:100px;
@@ -123,6 +135,7 @@ h3{
     font-family:'poppins med';
     font-size: 18px
 }
+
 p{
     font-family: 'raleway reg';
     font-size: 18px;
@@ -153,9 +166,35 @@ p{
     height:200px;
 }
 
+button{
+    background-color: #AD956E;
+    border:none;
+    color:white;
+    font-family:'poppins med';
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration:none;
+    display:inline-block;
+    font-size: 18px;
+    border-radius: 4px;
+}
+
+button:hover{
+    box-shadow: 0 12px 16px 0
+rgba(0,0,0,0.24), 0 17px 50px 0
+rgba(0,0,0,0.19);
+}
 
 
+.bottomline{
+    position: absolute;
+    width: 884px;
+    height: 0px;
+    left: 296px;
+    top: 4155px;
 
+    border: 1px solid #000000;
+}
 
 .INfooter {
     margin:0;
@@ -214,7 +253,7 @@ p{
     src:url(linkedinlink.png);
 }
 
-@media only screen and (max-width:600px){
+?*@media screen and (max-width:600px){
     .flexContainer{
         display: flex;
         flex-direction: column;
