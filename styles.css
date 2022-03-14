@@ -103,9 +103,13 @@ hr{
 }
 
 .introPara{
-    padding:100px;
+    padding-left:800px;
+    padding-right: 200px;
+    padding-bottom: 200px;
     display:flex;
     margin:auto;
+    font-family: 'raleway';
+    font-size: 24px;
 }
 
 
@@ -114,6 +118,13 @@ hr{
     flex-direction: row;
     
 }
+
+.mySkills{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
 .skillsboxes{
     width: 33%;
     padding: 45px;
@@ -126,11 +137,10 @@ hr{
 h1{
     font-family:'poppins med';
     font-size: 22px;
-    display: inline-block;
-    margin-left:auto;
-    margin-right:auto;
+    
 
 }
+
 h3{
     font-family:'poppins med';
     font-size: 18px
@@ -190,8 +200,8 @@ rgba(0,0,0,0.19);
     position: absolute;
     width: 884px;
     height: 0px;
-    left: 296px;
-    top: 4155px;
+    left: 230px;
+    top: 653px;
 
     border: 1px solid #000000;
 }
@@ -200,6 +210,11 @@ rgba(0,0,0,0.19);
     margin:0;
     padding:0;
     background-color: #ece5da;  
+}
+
+.mySkills{
+    font-family:'poppins reg';
+    font-size: 24px;
 }
 
 .socials{
@@ -236,7 +251,7 @@ rgba(0,0,0,0.19);
 
 
 .quick-items{
-        list-style: none;
+    list-style: none;
 }
 
 .quick-items a{
@@ -253,7 +268,7 @@ rgba(0,0,0,0.19);
     src:url(linkedinlink.png);
 }
 
-?*@media screen and (max-width:600px){
+@media screen and (max-width:600px){
     .flexContainer{
         display: flex;
         flex-direction: column;
